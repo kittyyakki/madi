@@ -1,6 +1,10 @@
+import Link from 'next/link'
+import Header from '../components/Header';
+
 const Index = () => (
   <div>
-    <h1>Hello, Next.js!</h1>
+    <Header />
+    <p>Hello Next.js</p>
   </div>
-)
+);
 export default Index
